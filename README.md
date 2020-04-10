@@ -59,6 +59,10 @@ To program the project use SDK 2017.4.
 - ip_repo
   - The filtering and averaging IPs.
   - In filter_1_sub there are IPs for the FIFOs used to cross the clock domains.
+- vignette
+  - This is the script that was used to generate and test the vignette dropoff function.
+  - There are a number of parameters to the vignette that can be varied to change the form of the dropoff.
+  - The `vignette_xform_*.mem` file can be swapped into the filter module in `filter4.sv`
 
 ### Notes
 

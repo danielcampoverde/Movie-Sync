@@ -45,9 +45,19 @@ To program the project use SDK 2017.4.
 - docs
   - documentation and resouces such as the final report and presentation slides.
 - src
-  - ...
+  - MovieSync.sdk
+    - SDK files to be run on the microblaze.
+    - To be used with SDK 2017.4
+    - Reads average color, sets which filter, programs lights using WiFi pmod.
+  - MovieSync.srcs
+    - constrs_1
+      - constrs1.xdc - Important. Mostly same as from Digilent HDMI tutorial.
+      - ila_debug.xdc - Set up ilas for debugging.
+    - sources_1/bd/dsgn_1
+      - Files relating to the top level block diagram of the project.
 - ip_repo
-  - ...
+  - The filtering and averaging IPs.
+  - In filter_1_sub there are IPs for the FIFOs used to cross the clock domains.
 
 ### Notes
 

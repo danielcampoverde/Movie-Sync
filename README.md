@@ -50,6 +50,7 @@ To program the project use SDK 2017.4.
     - To be used with SDK 2017.4
     - Reads average color, sets which filter, programs lights using WiFi pmod.
   - MovieSync.srcs
+    - To be used with Vivado 2018.1
     - constrs_1
       - constrs1.xdc - Important. Mostly same as from Digilent HDMI tutorial.
       - ila_debug.xdc - Set up ilas for debugging.
